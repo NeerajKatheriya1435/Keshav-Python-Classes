@@ -3,11 +3,11 @@
 # print(x)
 x=13
 
-def greet():
-    # global x
-    x=56
-    print(x)
+# def greet():
+#     # global x
+#     x=56
+#     print(x)
 
-greet()
+# greet()
 
-print(x)
+# print(x)
