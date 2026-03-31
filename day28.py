@@ -22,11 +22,10 @@ class Animal:
 
 # d2.details()
 
-def fact(num1):
-    if num1==1 or num1==0:
-        return 1
-    return num1*fact(num1-1)
-
+# def fact(num1):
+#     if num1==1 or num1==0:
+#         return 1
+#     return num1*fact(num1-1)
 
 # 5*fact(4)
 # 5*4*fact(3)
@@ -34,4 +33,4 @@ def fact(num1):
 # 5*4*3*2*fact(1)
 # 5*4*3*2*1
 
-print(fact(5))
+# print(fact(5))
