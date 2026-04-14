@@ -1,0 +1,21 @@
+2026-04-01 16:44:38,634 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2026-04-01 16:44:38,635 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\pc\AppData\Local\Programs\Python\Python313\Lib\site-packages\instabot\bot\bot.py
+2026-04-01 16:44:38,638 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2026-04-01 16:44:39,005 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [500]>
+2026-04-01 16:44:39,005 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'Oops, an error occurred.\n'
+2026-04-01 16:44:39,006 - instabot version: 0.117.0 (api) - ERROR - Request returns 500 error!
+2026-04-01 16:44:39,006 - instabot version: 0.117.0 (api) - ERROR - Error checking for `feedback_required`, response text is not JSON
+2026-04-01 16:44:39,007 - instabot version: 0.117.0 (api) - INFO - Full Response: <Response [500]>
+2026-04-01 16:44:39,007 - instabot version: 0.117.0 (api) - INFO - Response Text: Oops, an error occurred.
+
+2026-04-01 16:44:39,007 - instabot version: 0.117.0 (api) - ERROR - Error unknown send request
+2026-04-01 16:44:39,329 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2026-04-01 16:44:39,731 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2026-04-01 16:44:40,055 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2026-04-01 16:44:45,676 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2026-04-01 16:44:45,677 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","status":"fail","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","is_cp_nonce_flow":false,"login_identifer_type":"username","login_user_input":"penguin.4760858","qe_device_id":"784443f4-7b9d-422d-8f57-aa0a4e4a3405","login_attempt_count":1,"login_source":"unknown","error_code":1,"retry_response":null,"error_type":"bad_password"}'
+2026-04-01 16:44:45,677 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2026-04-01 16:44:45,678 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2026-04-01 16:44:45,679 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2026-04-01 16:44:45,679 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2026-04-01 16:44:45,679 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
