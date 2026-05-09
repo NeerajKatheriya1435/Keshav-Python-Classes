@@ -112,7 +112,7 @@
 #     def area(self):
 #         pass
 
-
+                                                                                                                                                                                                                                                                                                             
 # class Rectangle(Shape):
 #     def area(self):
 #         return 10 * 5
